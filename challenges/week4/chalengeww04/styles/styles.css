@@ -1,0 +1,43 @@
+body{
+    background-color: pink;
+    font-size: 24px;
+    
+    
+}
+
+main{
+    color: white;
+    text-align: center;
+
+}
+img {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+h1{
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    
+}
+h4{
+    color: black;
+    text-align: center;
+}
+main h4{
+    color: white;
+}
+div p{
+    text-align: center;
+    margin: 0, auto;
+    font-size: 3em;
+    color: white;
+}
+div{
+    text-align: 0 600px;
+     
+}
+footer{
+    text-align: center ;
+}
