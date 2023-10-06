@@ -80,10 +80,9 @@ footer a{
 .icon {
     width: 80px;
 }
-
 footer p{
-    font-size: 1.2em;
-}
+    font-size: 1.2em;   
+} 
 footer p a:hover {
     text-decoration: underline;
 }
