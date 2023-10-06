@@ -77,10 +77,6 @@ footer a{
     color:#fcfbfb
 } 
 
-footer a:hover{
-    background-color:#376b45; 
-    color: #050705; 
-}
 .icon {
     width: 80px;
 }
@@ -89,7 +85,7 @@ footer p{
     font-size: 1.2em;
 }
 footer p a:hover {
-    text-decoration: none;
+    text-decoration: underline;
 }
 footer p a{
     text-decoration: none;
