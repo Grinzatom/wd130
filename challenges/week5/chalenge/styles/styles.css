@@ -1,0 +1,20 @@
+div{
+    background-color: rgb(143, 152, 160);
+    margin-top: -10px;
+    width: 1280px;
+    
+}
+.logos{
+    border-radius: 50%;
+    border: 10px solid rgb(38, 38, 39);
+    width: 25%;
+    margin: 100px;
+    width: 200px;
+  
+}
+header{
+    margin-bottom: 0px;
+}
+body{
+    align-items: center;
+}

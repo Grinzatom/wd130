@@ -1,3 +1,8 @@
+
+/*import font family rocksalt,roboto, sanserif, helvetica*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
 #content{
     max-width:1600px;
     margin: 0 auto;
@@ -6,6 +11,7 @@ nav a{
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1{
@@ -26,6 +32,10 @@ main section{
 }
 body {
     background-color: #fbfcfb;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:rgba(48, 65, 37, 0.7);
@@ -38,6 +48,10 @@ nav a:hover {
     background-color: #59996c;
     color: #0d130f;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: #cfe4d5;
@@ -48,6 +62,10 @@ nav a:hover {
     background-color: #59996c;
     color: #0d130f;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join:hover{
     background-color: #cfe4d5;
@@ -56,29 +74,40 @@ nav a:hover {
 }
 .msg{
     background-color:#376b45; 
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color:#0c180f; 
     color: #fcfbfb;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title{
     color:#0d130f; 
+    font-family: rock salt, rock-salt, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color:#0d130f;  
 }
 .msg h2{
-    background-color: #376b45; 
+    background-color: #376b45;
+    font-family: roboto, helvetica, sans-serif; 
 }
 .msg p{
     color: #050705; 
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 footer a{
-    color:#fcfbfb
+    color:#fcfbfb;
 } 
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 footer p{
     font-size: 1.2em;   
@@ -94,4 +123,35 @@ footer p a{
 }
 #hero-img{
     width: 100%;
+}
+h2 {
+    margin: 0;
+}
+#logo_link{
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card{
+    margin: 200px 0;
+
+} 
+.camping-card{
+    margin: 200px 0;
+
+}
+.rapids-card{
+    margin: 200px 0;
+
+}
+.card-img{
+    border: 10px solid #8a9c68;
+}
+main section img {
+    box-sizing: border-box;
+}
+.mountains{
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
