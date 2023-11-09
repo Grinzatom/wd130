@@ -283,6 +283,7 @@ nav {
     grid-row: 3/4;
 }
 .river1_text{
+    font-family: roboto, helvetica, sans-serif;
     border: 10px solid #6f7364;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
@@ -293,6 +294,7 @@ nav {
     grid-row: 1/2; 
 }
 .river2_text{
+    font-family: roboto, helvetica, sans-serif;
     border: 10px solid #6f7364;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
@@ -303,6 +305,7 @@ nav {
     grid-row: 2/3;
 }
 .river3_text{
+    font-family: roboto, helvetica, sans-serif;
     border: 10px solid #6f7364;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
@@ -325,6 +328,7 @@ nav {
 }
 
 main p{
+    font-family: roboto, helvetica, sans-serif;
     font-size: 1em;
     text-align: left;
     padding: 20px;
