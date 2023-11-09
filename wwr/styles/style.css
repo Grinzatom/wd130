@@ -267,20 +267,48 @@ nav {
     background-color:#8a9c68
 }
 .river1{
+    border-radius: 30px;
+    border: 10px solid #6f7364;
+    width: 85%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
     margin: 50px;
     grid-column: 1/2;
     grid-row: 1/2;
-    
+}   
+.river1:hover{
+    opacity: .6;
+    transform: scale(1.1);
 }
+    
+
 .river2{
+    border-radius: 30px;
+    border: 10px solid #6f7364;
+    width: 85%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
     margin: 50px;
     grid-column: 2/3;
     grid-row: 2/3;
 }
+.river2:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
 .river3{
+    border-radius: 30px;
+    border: 10px solid #6f7364;
+    width: 85%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
     margin: 50px;
     grid-column: 1/2;
     grid-row: 3/4;
+}
+.river3:hover{
+    opacity: .6;
+    transform: scale(1.1);
 }
 .river1_text{
     font-family: roboto, helvetica, sans-serif;
@@ -315,17 +343,6 @@ nav {
     grid-column: 2/3;
     grid-row: 3/4;
 } 
-.img_main{
-    border-radius: 30px;
-    border: 10px solid #6f7364;
-    width: 100%;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
-}
-.img_main:hover{
-    opacity: .6;
-    transform: scale(1.1);
-}
 
 main p{
     font-family: roboto, helvetica, sans-serif;
