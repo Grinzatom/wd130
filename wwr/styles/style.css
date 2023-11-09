@@ -358,3 +358,8 @@ main p{
     margin-top: 10px;
     text-align: center; 
 }
+.title{
+    text-align: center;
+    font-family: roboto, Helvetica, sans-serif;
+    color: #376b45;
+}
