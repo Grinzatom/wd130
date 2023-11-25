@@ -78,7 +78,7 @@ nav {
     text-align: center;
 }
 footer{
-    background-color:#0c180f; 
+    background-color:#b85619; 
     color: #fcfbfb;
     padding: 25px 50px;
     margin-top: 200px;
@@ -150,6 +150,11 @@ footer p a{
 footer a{
     color:#fcfbfb;
     text-decoration: none;
+}
+.title2{
+    color:#1ccc85 ; 
+    text-align: center;
+    font-family:"Playpen Sans","Open Sans", sans-serif;
 }
 
 
