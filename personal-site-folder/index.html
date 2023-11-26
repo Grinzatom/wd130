@@ -6,12 +6,12 @@
     <title>Electronic for Children with Arduino</title>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
-<body id="content">
+<body>
 
 
-   <div>
+   <div id ="content">
         <header >
-            <a id="logo_link" href="index.html">
+            <a class="logo_link" href="index.html">
                 <img class="logo" src="images/logo1.png" alt="Site Logo">
             </a>
             <nav>
@@ -20,7 +20,7 @@
                 <a href="AboutUs.html">About Us</a>
             </nav>
         </header>
-        <div id="hero">
+        <div class ="hero">
             <div id="hero-box">
                 <img id="hero-img" src="images/heronb.PNG" alt="image hero">
             </div>
@@ -29,7 +29,7 @@
             </section>
         </div>
         <div>
-            <div id="intro">
+            <div class ="intro">
                 
                 <p>
                     Welcome to electronic for children with arduino. On this site you will
@@ -50,11 +50,12 @@
                 </p>
         
             </div>
-            <h2 id="title-history">Brief history of arduino</h2> 
 
-            <div id="grid-history">
-                <div id="history">
-                
+        <h2 class="title-history">Brief history of arduino</h2> 
+
+        <div id="grid-history">
+
+            <section id="history">
                 <p>
                     Arduino was born in Italy at the IVREA institute in 2005 as a response to a need to 
                     acquire low-cost microelectronics components. At that time, students in this area had 
@@ -64,30 +65,30 @@
                     design to the general public in order to grow the project with thousands of online participants
                     creating the entire Arduino family that we know and love today.
                 </p>
+            </section>
+
+            <div id="img-history">    
+                <img id= "image1" src="images/rsz_11arduino1.png" alt="atmega328p">
             </div>
 
-                <div id="img-history">    
-                    <img id= "image1" src="images/rsz_11arduino1.png" alt="atmega328p">
-                </div>
-        
-            </div>
         </div>
+
         <main class="grid-main">
             
 
-            <div id="div1"> 
-            <h2 class="title2">Why Arduino?</h2>
-            <p>
-               Its advantages apart from being open source are its easy use and scalability. These components are 
-               having wide uses in aerospace industries, medicine, construction of advanced prostheses, robotics and
-               increasingly applied in home automation (residential automation) . Its language is based on C++ with 
-               an easy-to-understand structure and on average you can purchase one of these boards for less than 15USD.
-               Its versatility and low cost comes from its simple processor called Atmel's ATMEGA328P, a powerful microcontroller that 
-               will make our projects possible with the best cost-benefit ratio on the market.
-            </p>
-            </div>
+            <section class = "div1"> 
+                <h2 class="title2">Why Arduino?</h2>
+                <p>
+                    Its advantages apart from being open source are its easy use and scalability. These components are 
+                    having wide uses in aerospace industries, medicine, construction of advanced prostheses, robotics and
+                    increasingly applied in home automation (residential automation) . Its language is based on C++ with 
+                    an easy-to-understand structure and on average you can purchase one of these boards for less than 15USD.
+                    Its versatility and low cost comes from its simple processor called Atmel's ATMEGA328P, a powerful microcontroller that 
+                    will make our projects possible with the best cost-benefit ratio on the market.
+                </p>
+            </section>
 
-            <div id="div2"> 
+            <section class = "div2"> 
                 <h2 class="title2">Until what age can I learn?</h2>
                 <p>
                     There is no limit to this. There are even courses aimed at all ages and you will be able to see it as you see
@@ -95,7 +96,7 @@
                     practically. Many of those who use this platform are self-taught and once you get passionate about it and start 
                     using it, the sky will be the limit.
                 </p>
-            </div>
+            </section>
            
             
         </main>
@@ -115,6 +116,7 @@
                 </a>
             </div>
         </footer>
+    </div>   
     </div>
     </body>
 </html>
