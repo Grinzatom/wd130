@@ -174,3 +174,53 @@ footer a{
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
+
+.grid-projects{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    margin-top: 100px;
+}
+
+.project-title{
+    color:#b85619 ; 
+    text-align: center;
+    font-family:"Playpen Sans","Open Sans", sans-serif;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.project1{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 15px;
+    width: 560px;
+}
+.project2{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 15px;
+    width: 560px;
+}
+.projectimg2{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: 15px;
+    width: 560px;
+   
+    
+    
+}
+.projectimg1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 15px;
+    
+}
+
+.projectimg2:hover{
+    transform: scale(1.1); 
+}
+
+.projectimg1:hover{
+    transform: scale(1.1); 
+}
