@@ -158,7 +158,7 @@ footer a{
 
 #img-history:hover{
     animation: shake 0.5s;
-    animation-iteration-count: 1s;  
+    animation-iteration-count: 1;  
 }
 
 @keyframes shake {
