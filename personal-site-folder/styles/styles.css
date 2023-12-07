@@ -226,3 +226,33 @@ footer a{
 .projectimg1:hover{
     transform: scale(1.1); 
 }
+
+.main_about{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 150px;
+}
+
+.me-img{
+    grid-column: 1/2;
+    width: 400px;
+    border-radius: 200px;
+    
+}
+.about-project{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 150px;
+    background-color: #ffe8b1;
+    border: 5px solid #b85619;
+    border-radius: 30px;
+}
+.img-about{
+    grid-column: 1/2;
+    margin: 20px;
+    
+    
+}
+.about-final{
+    grid-column: 2/3;
+}
